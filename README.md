@@ -49,6 +49,7 @@ d. Anything else you feel like discussing, asking about, bragging about, etc.
 - Another things that I fascinated about, without the mutation (problems) we can be quite stuck on a plateau. Which is very interesting if we see it from philosophical perspective.
 
 Reference :
+
 • I have also use Chat-GPT to build this program, which is very impressive (and frightening) on how well the result it created. But sometime the result it provided is not goes the way we expected (especially in fitness function) which is they can misunderstand the prompt given and infer something that is not related to the prompt raised, it is quite understood because they can’t really assume the situation and can only infer information from the prompt.
 But it is impressive how they can improve with each prompt given.
 ![image](https://github.com/Baguser7/CS-461_Genetic-Algorithm/assets/125522708/bffe4843-038a-4a71-8fdd-ad52cfac7eac)
