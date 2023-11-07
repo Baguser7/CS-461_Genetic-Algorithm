@@ -30,16 +30,20 @@ I’m using softmax method to decide the crossover process, some of the case tha
 3. Short Report
 Link :
 https://drive.google.com/drive/folders/1yIuLhrE9k5hLId5Jg5u7UHUMiIce3D2U?usp=drive_link
+
 a. What were the challenges in writing the program? Or did it seem to go smoothly from the beginning?
 - The main challenge of this program is how you build the fitness function, which can be quite complicated depends on the criteria of the goals itself
 - Another issue that I noticed is that the result is not quite of what I expected, basically the program find the best way to “cheat”. To get
 the best fitness number, which can lead to another problem if we not clearly defined the criteria.
+
 b. What do you think of the schedule your program produced? Does it have anything that still looks odd or out of place?
 - The result can be quite inconsistent (because of the stochastic approach), and as I say above, that the program try to maximize the fitness value by any means necessary (e.g find a loophole) which I noticed from the result.
 - The one thing that I notice is that they try to use the same room (and facilitator) quite frequently in different time schedule in order to maximize its value, which we must anticipated in much larger scale of program that this result can lead to another issue (underutilize, maintenance, fatigue etc) which we should refine in the fitness criteria.
 - Basically, they tend to use the “best” items or method over-and-over in order to maximize its fitness value, so the result given can be quite homogeneous.
+  
 c. How would you improve the program, or change the fitness function?
 - I would say that I’d like to utilize the other room and facilitator that available, maybe give some penalty if using the same room or/and not using the facilitator available.
+  
 d. Anything else you feel like discussing, asking about, bragging about, etc.
 - In my opinion, genetic algorithm really depends on how you define the fitness criteria, which we should be more careful for unexpected behaviour or result that we may create. which in more complex task it can be quite daunting, in regards how to define the fitness criteria and how you evaluate the result created.
 - Another things that I fascinated about, without the mutation (problems) we can be quite stuck on a plateau. Which is very interesting if we see it from philosophical perspective.
